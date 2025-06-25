@@ -38,4 +38,28 @@ This repo contains three main chatbot agents designed for debate-style conversat
 * Combines curated debate knowledge with generative LLM power.
 * Maintains conversation context for more coherent, on-topic replies.
 * Evaluated with automated metrics and human judges to compare bot performance.
+  
+---
 
+## Characters in the System
+
+* **Alice:** Pure LLM-based chatbot, generates responses without retrieval grounding.
+* **Akiko:** Basic single-turn retrieval bot (no LLM).
+* **Akiki:** Multi-turn retrieval bot using weighted query (no LLM).
+* **Aragorn:** RAG bot combining retrieval and LLM generation.
+* **Shorty:** Simulated user for evaluation conversations.
+* **Judge Wise:** Automated judge bot that scores dialogue quality and topic relevance.
+
+---
+
+## Evaluation
+
+* Evaluate bot responses using the function `eval.eval_on_characters()`.
+* Bots converse with simulated users (e.g., Shorty).
+* Judge Wise scores responses based on:
+
+  * How well the bot stays on topic.
+  * Response relevance and informativeness.
+  * Coherence and engagement.
+* Typically, Aragorn outperforms pure retrieval bots (Akiko, Akiki) and pure LLM bots (Alice) by balancing grounded knowledge and generative flexibility.
+* Evaluation can be done on different simulated characters to reveal bot strengths and weaknesses.
