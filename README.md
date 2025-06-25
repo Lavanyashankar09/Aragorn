@@ -63,3 +63,8 @@ This repo contains three main chatbot agents designed for debate-style conversat
   * Coherence and engagement.
 * Typically, Aragorn outperforms pure retrieval bots (Akiko, Akiki) and pure LLM bots (Alice) by balancing grounded knowledge and generative flexibility.
 * Evaluation can be done on different simulated characters to reveal bot strengths and weaknesses.
+
+  ## Kialo claims
+
+  <img width="350" alt="image" src="https://github.com/user-attachments/assets/e8020d5b-3403-4284-9999-42d5cb2d89dd" />
+
