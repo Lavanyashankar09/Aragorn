@@ -33,7 +33,7 @@ This repo contains three main chatbot agents designed for debate-style conversat
 
 ## Features
 
-* Uses **BM25** for fast, interpretable retrieval of debate claims.
+* Uses **BM25 and FAISS** for fast, interpretable retrieval of debate claims.
 * Incorporates **semantic paraphrasing** to improve retrieval relevance.
 * Combines curated debate knowledge with generative LLM power.
 * Maintains conversation context for more coherent, on-topic replies.
